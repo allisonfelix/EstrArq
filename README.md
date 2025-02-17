@@ -1,4 +1,4 @@
-# Merge de Arquivos de Endereços Ordenados por CEP
+# Merge de arquivos de endereços ordenados por CEP
 
 Este programa em C realiza a fusão (merge) de dois arquivos binários contendo registros de endereços ordenados por CEP, gerando um terceiro arquivo com os dados mesclados também em ordem crescente.
 
