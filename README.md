@@ -2,7 +2,7 @@
 
 Este programa em C realiza a fusão (merge) de dois arquivos binários contendo registros de endereços ordenados por CEP, gerando um terceiro arquivo com os dados mesclados também em ordem crescente.
 
-## 📌 Como Funciona
+## 📌 Como funciona
 
 1. O código define uma estrutura `Endereco` para armazenar os dados de um endereço, incluindo logradouro, bairro, cidade, UF, sigla e CEP.
 2. Abre dois arquivos de entrada (`cep1.dat` e `cep2.dat`), ambos contendo registros de endereços ordenados por CEP.
@@ -11,7 +11,7 @@ Este programa em C realiza a fusão (merge) de dois arquivos binários contendo 
 5. Caso um dos arquivos termine antes do outro, os registros restantes do outro arquivo são copiados diretamente para o arquivo de saída.
 6. Garante que todos os registros sejam processados até o fim dos arquivos.
 
-## 🛠 Estrutura do Código
+## 🛠 Estrutura do código
 
 - **Estrutura `Endereco`**: Define o formato dos registros armazenados nos arquivos binários.
 - **Função `compara()`**: Compara dois endereços com base no campo `cep`.
@@ -21,7 +21,7 @@ Este programa em C realiza a fusão (merge) de dois arquivos binários contendo 
   - Mescla os dados mantendo a ordenação por CEP.
   - Fecha os arquivos após a operação.
 
-## 📂 Estrutura dos Arquivos de Entrada
+## 📂 Estrutura dos arquivos de entrada
 
 Os arquivos `cep1.dat` e `cep2.dat` são arquivos binários contendo registros da estrutura `Endereco`. Eles devem estar previamente ordenados por CEP para que o algoritmo funcione corretamente.
 Descrição da estrutura `Endereco`:
@@ -40,7 +40,7 @@ typedef struct {
 ## ▶️ Como usar
 Você pode utilizar o **executável** já fornecido ou **compilar o código manualmente**.
 
-### Opção 1: Usando o Executável (Recomendado)
+### Opção 1: Usando o executável (Recomendado)
 
 1. Certifique-se de que os arquivos `cep1.dat` e `cep2.dat` estão no mesmo diretório do executável.
 2. Navegue pelo terminal até a pasta onde está o executável e os arquivos de entrada.
@@ -56,7 +56,7 @@ Você pode utilizar o **executável** já fornecido ou **compilar o código manu
    
 4. O arquivo mesclado será salvo como `cep_output.dat`.
 
-### Opção 2: Compilando o Código Manualmente
+### Opção 2: Compilando o código manualmente
 Caso prefira compilar o código fonte:
 
 1. Compile e execute o programa usando:
